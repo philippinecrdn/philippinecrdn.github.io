@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
 
-
 body {
   font-family: "Sawarabi Mincho", "Times New Roman", serif;
   display: grid;
@@ -20,14 +19,23 @@ body {
 header {
   font-family: "GFS Neohellenic", "Times New Roman", serif;
   text-transform: uppercase;
-  text-shadow: 2px 2px #F2F2F2;
+  text-shadow: 2px 2px #9AC7D9;
   grid-area: title;
   padding-left: 440px;
   background-color: #A1C7E0;
 }
 
+main {
+  grid-area: main;
+}
+
+section {
+  padding: 20px;
+}
+
 nav {
   grid-area: sidebar;
+  border-right: solid 2px #9AC7D9;
 }
 
 h2 {
@@ -36,6 +44,7 @@ h2 {
   letter-spacing: 0.14em;
   font-weight: 900;
   text-decoration: underline;
+  margin-top: 0;
 }
 
 h3 {
@@ -51,12 +60,18 @@ footer {
 table {
   margin: 0;
   background-color: #00ABBD;
-  border: 3px dotted;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px dotted;
+  padding: 3px;
 }
 
 figure {
   text-align: right;
   font-size: 12px;
+  margin: 0;
 }
 
 ul {
