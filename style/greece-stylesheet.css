@@ -21,7 +21,7 @@ header {
   text-transform: uppercase;
   text-shadow: 2px 2px #9AC7D9;
   grid-area: title;
-  padding-left: 440px;
+  text-align: center;
   background-color: #A1C7E0;
 }
 
@@ -63,7 +63,9 @@ table {
   border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 2px dotted;
   padding: 3px;
 }
@@ -88,6 +90,7 @@ main p::first-letter {
   font-size: 22px;
 }
 
+a,
 a:link {
   color: #012030;
 }
