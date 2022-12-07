@@ -47,11 +47,6 @@ figcaption {
   text-align: right;
 }
 
-.group {
-  height: 600;
-  text-align: right;
-}
-
 #box-1 {
   float: left;
   margin-top: 0;
@@ -68,9 +63,9 @@ figcaption {
 #box-2 {
   float: right;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-right: 0;
   margin-left: 0;
-  margin-right: 1em;
+  margin-bottom: 1em;
   width: 452px;
   padding: 20px 20px 30px 20px;
   border-width: 1px;
@@ -118,4 +113,9 @@ a:hover {
 
 a:active {
   color: #304954;
+}
+
+.group {
+  height: 600;
+  text-align: right;
 }
